@@ -1,0 +1,23 @@
+{
+  "name": "podcasts",
+  "version": "1.0.0",
+  "description": "Podcast app with nextjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "Podcast",
+    "React",
+    "Nextjs"
+  ],
+  "author": "David Bárcenas",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
