@@ -1,11 +1,15 @@
 import React from "react";
 import Link from "next/link";
+import Head from "next/head";
 import "isomorphic-fetch";
 
 export default function Podcast(props) {
   const audio = props.audio.audio_clip;
   return (
     <>
+      <Head>
+        <title>{audio.title}</title>
+      </Head>
       <div className="audio_wrapper">
         <Link href={`/channel?id=${audio.channel.id}`}>
           <a className="audio_back">
