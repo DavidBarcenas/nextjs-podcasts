@@ -17,14 +17,14 @@ export default class index extends Component {
 
         <div className="channels">
           {channels.map(channel => (
-            <Link href="/channel" key={channel.id}>
+            <Link href={`/channel?id=${channel.id}`} key={channel.id}>
               <a className="channel">
                 <figure>
                   <img
                     src={channel.urls.logo_image.original}
                     alt={channel.title}
                   />
-                  <figcaption>{channel.title}</figcaption>
+                  {/* <figcaption>{channel.title}</figcaption> */}
                 </figure>
               </a>
             </Link>
@@ -41,8 +41,8 @@ export default class index extends Component {
           }
           .channels {
             display: grid;
-            grid-gap: 5px;
-            padding: 15px;
+            grid-gap: 5px 10px;
+            padding: 10px;
             grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
           }
           .channel {
