@@ -21,7 +21,6 @@ export default class channel extends Component {
       const audioClips = (await reqAudio.json()).body.audio_clips;
       // get channel series
       const childChannels = (await reqChildChannels.json()).body.channels;
-      console.log(reqChannel.status);
       if (reqChannel.status >= 400) {
         res.statusCode = reqChannel.status;
         return {
