@@ -20,7 +20,7 @@ export default class ChannelList extends Component {
 
         <style jsx>{`
           .channel_wrapper {
-            padding: 0 10px;
+            padding: 0 10px 15px;
           }
           .channel_wrapper h3 {
             color: #8756ca;
@@ -38,6 +38,7 @@ export default class ChannelList extends Component {
           .child_grid a {
             font-size: 0.9em;
             font-weight: bold;
+            text-align: center;
           }
         `}</style>
       </div>

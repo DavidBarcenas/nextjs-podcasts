@@ -49,6 +49,7 @@ export default class ChannelGrid extends Component {
             font-weight: bold;
             margin: 0;
             padding: 0.5em 0;
+            text-align: center;
           }
           .channel:hover {
             opacity: 0.9;
