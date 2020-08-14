@@ -1,17 +1,35 @@
-# Podcasts app with Nextjs
+# Podcasts
 
-App with react, react-dom, next.js and AudioBoom API
+Application to listen to podcast for free, made with react and nextjs
 
+## Preview
 ![App screenshot](./.readme-static/app.png)
 
-## How does it work?
+## Features
 
-Requires Node.Js 13.6.0
+* SSR (Nextjs)
+* mp3 player
+* audioboom API
 
-- `npm install` to install the dependencies
-- `npm run dev` for development environment
-- `npm run build && npm start` for production environment
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run start
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
 
 ## License
-
-MIT
+Released under the MIT License
