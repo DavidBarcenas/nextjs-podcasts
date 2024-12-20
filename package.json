@@ -16,7 +16,7 @@
   "author": "David Bárcenas",
   "license": "ISC",
   "dependencies": {
-    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-fetch": "^3.0.0",
     "next": "^12.1.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
